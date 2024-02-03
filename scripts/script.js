@@ -10,83 +10,51 @@ new Vue({
       isTimerPlaying: false,
       tracks: [
         {
-          name: "Those Eyes",
-          artist: "New West",
-          cover: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/1.jpg",
-          source: "../mp3/10.mp3",
-          url: "https://www.youtube.com/watch?v=z3wAjJXbYzA",
+          name: "Apa ini cinta",
+          artist: "Caitlin Halderman",
+          cover: "https://github.com/harismuda/foto-img/blob/main/img/i1.jpg?raw=true",
+          source: "https://github.com/harismuda/foto-img/blob/main/mp3/Caitlin%20Halderman%20%E2%80%93%20Apa%20Ini%20Cinta%20(OST.%20Aku%20Dan%20Mesin%20Waktu).mp3?raw=true",
+          url: "https://youtu.be/uvScDhoiEtw?si=Y9vkTgFTqYf152EH",
           favorited: false
         },
         {
-          name: "Mekanın Sahibi",
-          artist: "Norm Ender",
-          cover: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/1.jpg",
-          source: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/1.mp3",
-          url: "https://www.youtube.com/watch?v=z3wAjJXbYzA",
+          name: "Rumah Singgah",
+          artist: "Fabio Asher",
+          cover: "https://github.com/harismuda/foto-img/blob/main/img/i2.jpg?raw=true",
+          source: "https://github.com/harismuda/foto-img/blob/main/mp3/FABIO%20ASHER%20-%20RUMAH%20SINGGAH%20(OFFICIAL%20MUSIC%20VIDEO).mp3?raw=true",
+          url: "https://youtu.be/5k6IkftDRwE?si=iWhJRgU4b41nAyhl",
           favorited: false
         },
         {
-          name: "Everybody Knows",
-          artist: "Leonard Cohen",
-          cover: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/2.jpg",
-          source: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/2.mp3",
-          url: "https://www.youtube.com/watch?v=Lin-a2lTelg",
+          name: "Duka",
+          artist: "Last Child",
+          cover: "https://github.com/harismuda/foto-img/blob/main/img/i3.jpg?raw=true",
+          source: "https://github.com/harismuda/foto-img/blob/main/mp3/Last%20Child%20-%20DUKA%20(Official%20Lyric%20Video).mp3?raw=true",
+          url: "https://youtu.be/8zwz2fVgfVM?si=Alg0kBwwlwQZt-yn",
           favorited: true
         },
         {
-          name: "Extreme Ways",
-          artist: "Moby",
-          cover: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/3.jpg",
-          source: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/3.mp3",
-          url: "https://www.youtube.com/watch?v=ICjyAe9S54c",
-          favorited: false
-        },
-        {
-          name: "Butterflies",
-          artist: "Sia",
-          cover: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/4.jpg",
-          source: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/4.mp3",
-          url: "https://www.youtube.com/watch?v=kYgGwWYOd9Y",
-          favorited: false
-        },
-        {
-          name: "The Final Victory",
-          artist: "Haggard",
-          cover: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/5.jpg",
-          source: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/5.mp3",
-          url: "https://www.youtube.com/watch?v=0WlpALnQdN8",
+          name: "Pilihan Hatiku",
+          artist: "Lavina",
+          cover: "https://github.com/harismuda/foto-img/blob/main/img/i4.jpg?raw=true",
+          source: "https://github.com/harismuda/foto-img/blob/main/mp3/PILIHAN%20HATIKU%20-%20LAVINA%20(LYRICS).mp3?raw=true",
+          url: "https://youtu.be/15ZzB0jxgeo?si=TUgci1_GQxZEsO-9",
           favorited: true
         },
         {
-          name: "Genius ft. Sia, Diplo, Labrinth",
-          artist: "LSD",
-          cover: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/6.jpg",
-          source: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/6.mp3",
-          url: "https://www.youtube.com/watch?v=HhoATZ1Imtw",
+          name: "Bukti",
+          artist: "Virgoun",
+          cover: "https://github.com/harismuda/foto-img/blob/main/img/i5.jpg?raw=true",
+          source: "https://github.com/harismuda/foto-img/blob/main/mp3/Virgoun%20-%20Bukti%20(Official%20Lyric%20Video).mp3?raw=true",
+          url: "https://youtu.be/s9NoBV_7yVI?si=3AcGXwwiZXzxPLYR",
           favorited: false
         },
         {
-          name: "The Comeback Kid",
-          artist: "Lindi Ortega",
-          cover: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/7.jpg",
-          source: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/7.mp3",
-          url: "https://www.youtube.com/watch?v=me6aoX0wCV8",
-          favorited: true
-        },
-        {
-          name: "Overdose",
-          artist: "Grandson",
-          cover: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/8.jpg",
-          source: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/8.mp3",
-          url: "https://www.youtube.com/watch?v=00-Rl3Jlx-o",
-          favorited: false
-        },
-        {
-          name: "Rag'n'Bone Man",
-          artist: "Human",
-          cover: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/9.jpg",
-          source: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/9.mp3",
-          url: "https://www.youtube.com/watch?v=L3wKzyIN1yk",
+          name: "Surat Cinta Untuk Starla",
+          artist: "Virgoun",
+          cover: "https://github.com/harismuda/foto-img/blob/main/img/i6.jpg?raw=true",
+          source: "https://github.com/harismuda/foto-img/blob/main/mp3/Virgoun%20-%20Surat%20Cinta%20Untuk%20Starla%20(Official%20Lyric%20Video).mp3?raw=true",
+          url: "https://youtu.be/FocFked1TbQ?si=ERvigG0AjoD-5P90",
           favorited: false
         }
       ],
