@@ -12,7 +12,7 @@ new Vue({
         {
           name: "Apa ini cinta",
           artist: "Caitlin Halderman",
-          cover: "https://github.com/harismuda/foto-img/blob/main/img/i1.jpg?raw=true",
+          cover: "https://github.com/harismuda/foto-img/blob/main/img/i7.jpg?raw=true",
           source: "https://github.com/harismuda/foto-img/blob/main/mp3/Caitlin%20Halderman%20%E2%80%93%20Apa%20Ini%20Cinta%20(OST.%20Aku%20Dan%20Mesin%20Waktu).mp3?raw=true",
           url: "https://youtu.be/uvScDhoiEtw?si=Y9vkTgFTqYf152EH",
           favorited: false
